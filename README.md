@@ -53,6 +53,16 @@ In the **Environment Variables** text box you should have:
 
 If you aren't using Visual Studio, you can do the following on the command prompt before running the app:
 
+### Setting up Without Visual Studio (Cross-Platform)
+
+Open the start folder **StartProject/FacialRecogntionLab** in your command line and execute:
+
+```bash
+npm install
+```
+
+To set your API key in your environment so that the node app picks it up do the following on your command line depending on which platform you are using:
+
 Windows
 ```batch
 
@@ -61,6 +71,7 @@ set API_SECRET=YOUR_API_SECRET
 
 ```
 
+Linux/Mac OS X
 ```bash
 
 export API_Key=YOUR_API_KEY
