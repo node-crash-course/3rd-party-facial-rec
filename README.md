@@ -211,6 +211,17 @@ When the user hits the '**Submit Query** button the route **/phototrain** will b
 
 ![](ScreenShots/ss6.png)
 
+**Note** To debug on Mac/Linux, you need to install node inspector and run your app with it by doing on your command line:
+
+```bash
+# You mayneed to do - sudo npm install -g depending on your system settings
+npm install -g node-inspector
+node-inspector app.js
+```
+
+This will open up the chrome browser and break into your node.js app.
+
+
 We will use the **req.body.pictures** for the **faces/detect** **urls** query parameter for our REST request:
 
 (don't forget, every call to the API must have api_key and api_secret query parameters)
