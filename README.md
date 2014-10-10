@@ -51,6 +51,23 @@ In the **Environment Variables** text box you should have:
 
 	API_Key=Your_API_Key;API_SECRET=Your API Secret
 
+If you aren't using Visual Studio, you can do the following on the command prompt before running the app:
+
+Windows
+```batch
+
+set API_Key=YOUR_API_KEY
+set API_SECRET=YOUR_API_SECRET
+
+```
+
+```bash
+
+export API_Key=YOUR_API_KEY
+export API_SECRET=YOUR_API_SECRET
+
+```
+
 Do not share these values with other people.
 
 
